@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstarp Tut</title>
+</head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+<body>
+    <div class="container bg-white pb-3">
+        <header class="row" >
+            <nav class="navbar navbar-expand-lg bg-black navbar-dark">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Helmet Shop</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Categories
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item text-white" href="#">Full Face</a></li>
+                          <li><a class="dropdown-item text-white" href="#">Half Face</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item text-white" href="#">Bicycle</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link disabled">Total Price: /-</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-light" type="submit">Search</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+        </header>
+        <main class="row">
+            <div class="col-12">
+                <div class="row">
+                <div class="col-3 my-3 bg-black">
+                    <div class="card bg-black text-secondary" style="width: 15rem;">
+                        <img src="https://www.helmetsnepal.com/wp-content/uploads/2021/12/34-4.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Axor</h5>
+                          <p class="card-text">Axor Glossy Black.</p>
+                          <p class="card-text">Price: 10500/-</p>
+                          <a href="#" class="btn btn-light text-dark">Add to cart</a>
+                      <a href="#" class="btn btn-secondary  my-1">View More</a>
+                        </div>
+                      </div>
+                </div>
+            
+            
+            <div class="col-3 my-3 bg-black">
+                <div class="card bg-black text-secondary" style="width: 15rem;">
+                    <img src="https://www.helmetsnepal.com/wp-content/uploads/2020/06/DSC9421-copy-600x397.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">AGV</h5>
+                      <p class="card-text">AGV Pista GP R Carbon .</p>
+                      <p class="card-text">Price: 135000/-</p>
+                      <a href="#" class="btn btn-light text-dark">Add to cart</a>
+                      <a href="#" class="btn btn-secondary  my-1">View More</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-3 my-3 bg-black">
+                <div class="card bg-black text-secondary" style="width: 15rem;">
+                    <img src="https://www.helmetsnepal.com/wp-content/uploads/2022/08/3-4.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Airoh Wraap</h5>
+                      <p class="card-text">Airoh Wraap – Matte Black.</p>
+                      <p class="card-text">Price: 35000/-</p>
+                      <a href="#" class="btn btn-light text-dark">Add to cart</a>
+                      <a href="#" class="btn btn-secondary  my-1">View More</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-3 my-3 bg-black">
+                <div class="card bg-black text-secondary" style="width: 15rem;">
+                    <img src="https://www.helmetsnepal.com/wp-content/uploads/2022/07/32-1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Axor-half</h5>
+                      <p class="card-text">Axor Jet Army Green.</p>
+                      <p class="card-text">Price: 6500/-</p>
+                      <a href="#" class="btn btn-light text-dark">Add to cart</a>
+                      <a href="#" class="btn btn-secondary  my-1">View More</a>
+                    </div>
+                  </div>
+            </div>
+            </div>
+            <div class="row">
+                <div class="col-12 mt-3">
+                    <div id="carouselExample" class="carousel slide">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="https://images.unsplash.com/photo-1611004061856-ccc3cbe944b2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aGVsbWV0fGVufDB8fDB8fA%3D%3D&w=1000&q=80" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="https://images.unsplash.com/photo-1586423702505-b13505519074?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="https://th.bing.com/th/id/R.e51fa9d23a250b280b6af6b52b50968b?rik=PPU86J8Kx3y7Sw&pid=ImgRaw&r=0" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+            </div>
+            </div>
+        </main>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous" ></script>
+</body>
+</html>

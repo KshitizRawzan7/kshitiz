@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="inp">
+    <button type="'button" id="btn">
+        click   
+    </button>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous" ></script>
+    <script>
+        // document.getElementById('btn')
+        // document.querySelector('#btn').value = // to set value input here
+        // document.querySelector('#btn').style // to check the style  (css property)
+        // const style= document.querySelector('#btn').style.backgroudColor='green'; // to check the style background color (css property)
+        // console.log(style);
+        // document.querySelector('#btn').addEventListener('click', function(){ console.log('clicked')} ) // to act on the event , function hai anonymous function for single kaam ko laagi 
+        document.querySelector('#btn').onclick=function () {
+            const data = document.querySelector('#inp').value
+            // console.log(data);
+            document.querySelector('#opt').innerHTML =data
+            
+        }
+    </script>
+</body>
+</html>
